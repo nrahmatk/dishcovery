@@ -1,0 +1,57 @@
+.recipe-main {
+      background-color: #f3f3f3;
+}
+
+
+.recipe-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipe-detail h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.recipe-detail img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail .info, .recipe-detail .ingredients, .recipe-detail .instructions, .recipe-detail .summary {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail .info h2, .recipe-detail .ingredients h2, .recipe-detail .instructions h2 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.recipe-detail .info p, .recipe-detail .ingredients ul, .recipe-detail .instructions ol {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.recipe-detail .info a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.recipe-detail .info a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

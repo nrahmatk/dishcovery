@@ -1,0 +1,106 @@
+/* Full page container to center the chatbox */
+.chat {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .chat p{
+    margin: 0;
+  }
+
+
+  
+  /* Container for the entire chatbox */
+  .chatbox-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the messages */
+  .chatbox-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+  
+  /* Each message bubble */
+  .chatbox-message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  /* Style for user messages */
+  .chatbox-message.user {
+    align-self: flex-end;
+    background-color: #E38B29;
+    color: white;
+    text-align: right;
+  }
+  
+  /* Style for bot messages */
+  .chatbox-message.bot {
+    align-self: flex-start;
+    background-color: #e5e5ea;
+    color: black;
+    text-align: left;
+  }
+  
+  /* Error message styling */
+  .chatbox-error {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Form at the bottom of the chatbox */
+  .chatbox-form {
+    display: flex;
+    border-top: 1px solid #ccc;
+    background-color: #f7f7f7;
+  }
+  
+  /* Input field for typing messages */
+  .chatbox-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 0 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Send button */
+  .chatbox-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #E38B29;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 0 10px 0;
+    outline: none;
+  }
+  
+  .chatbox-button:hover {
+    background-color: #005bb5;
+  }
+  
